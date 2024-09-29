@@ -42,7 +42,7 @@ async function quantidadeUsuarios() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Milhões de franquias ativas',
+                text: 'Milhares de franquias ativas',
                 font: {
                     color: getCSS('--secondary-color')
                 }

@@ -11,7 +11,7 @@ async function vizualizarInformacoesGlobais() {
 
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Você sabia que o mundo tem <span>${pessoasNoMundo} bilhões</span> de pessoas e que existe aproximadamente <span>230.5 mil</span> franquias sendo elas (Domino’s Pizza, Burger King, KFC, McDonald’s, Subway e Eleven)que estão presentes em todo o mundo, onde para fazer parte delas você tem que fazer um investimento incial que é por média de <span>900 mil reais</span>.<br>Isso significa que a pessoa tem que ser no minimo rica para conseguir abrir uma franquia.`
+    paragrafo.innerHTML = `Você sabia que o mundo tem <span>7.888 bilhões</span> de pessoas e que existe aproximadamente <span>230.5 mil</span> franquias sendo elas (Domino’s Pizza, Burger King, KFC, McDonald’s, Subway e Eleven)que estão presentes em todo o mundo, onde para fazer parte delas você tem que fazer um investimento incial que é por média de <span>900 mil reais</span>.<br>Isso significa que a pessoa tem que ser no minimo rica para conseguir abrir uma franquia.`
 
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)

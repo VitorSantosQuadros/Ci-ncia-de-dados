@@ -4,8 +4,8 @@ async function quantidadeUsuarios() {
     const url = 'https://raw.githubusercontent.com/VitorSantosQuadros/api/main/numero-franquias.json'
     const res = await fetch(url)
     const dados = await res.json()
-    const nomeDasFranquias = Object.keys(dados)
-    const quantidadeDeFranquias = Object.values(dados)
+    const nomeDasRedes = Object.keys(dados)
+    const quantidadeDeUsuarios = Object.values(dados)
 
     const data = [
         {
@@ -56,4 +56,4 @@ async function quantidadeUsuarios() {
     Plotly.newPlot(grafico, data, laytout)
 }
 
-quantidadeFranquiasPorRedeFastFood()
+quantidadeUsuariosPorRede()
